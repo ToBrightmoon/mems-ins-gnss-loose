@@ -1,0 +1,25 @@
+imu:
+  arw: [0.003, 0.003, 0.003]          # [deg/sqrt(hr)]
+  vrw: [0.03, 0.03, 0.03]          # [m/s/sqrt(hr)]
+  gbstd: [0.027, 0.027, 0.027]        # [deg/hr]
+  abstd: [15.0, 15.0, 15.0]     # [mGal]
+  corrtime: 4.0                    # [hr]
+
+gnss:
+  position: [0.1, 0.1, 0.2]          # meter (N,E,D)
+
+initial_state:
+  position: [ 30.4447873701, 114.4718632047, 20.899 ]  # lat(deg), lon(deg), h(m)
+  velocity: [0.0, 0.0, 0.0]
+  attitude: [ 0.85421502, -2.03480295, 185.70235133 ]           # roll, pitch, yaw (deg)
+  gyro_bias: [0.0, 0.0, 0.0]
+  accel_bias: [0.0, 0.0, 0.0]
+
+initial_covariance:
+  pos: [ 0.005, 0.004, 0.008 ]
+  vel: [ 0.003, 0.004, 0.004 ]
+  att: [ 0.003, 0.003, 0.023 ]              # deg
+  gyro_bias: [ 1, 1, 1 ]
+  accel_bias: [ 50, 50, 50 ]
+
+antlever:  [ 0.136, -0.301, -0.184 ] #天线杆臂, IMU坐标系前右下方向

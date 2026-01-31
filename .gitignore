@@ -1,0 +1,53 @@
+# Build directories
+build/
+cmake-build-*/
+out/
+.cache/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Compiled files
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Executables
+eval_ins
+estimator_eval
+pose_eval
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Output files
+*.txt
+!data/*.txt
+res.txt
+error.txt
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+
+# Coverage reports
+*.gcov
+*.gcda
+*.gcno
+
+# Valgrind output
+*.memcheck
