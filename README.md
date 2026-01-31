@@ -202,5 +202,5 @@ GNSS数据文件应包含时间戳和位置信息。
 ## 参考
 
 - 牛小骥老师的《惯性导航原理与算法设计》
-- 严恭敏老师的pins实现
-- 牛小骥老师的kf-gins实现
+- 严恭敏老师的[pins](https://www.psins.org.cn/)实现
+- 牛小骥老师的[kf-gins](https://github.com/i2Nav-WHU/KF-GINS)实现
